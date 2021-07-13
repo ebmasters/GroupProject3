@@ -24,6 +24,7 @@ font-family: 'Vidaloka', serif; */
 .block {
     display: block;
     text-align: center;
+    background-color: #FF6392;
 }
 
 li {
