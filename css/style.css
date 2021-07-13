@@ -1,0 +1,52 @@
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Vidaloka', serif; */
+
+
+/*  Syling for Header. */ 
+
+.logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: center;
+    padding-top: 50px;
+    height: 100px;
+}
+
+.block {
+    display: block;
+    text-align: center;
+}
+
+li {
+    padding-left: 75px;
+    padding-right: 25px;
+}
+
+.carousel-inner{
+    height: 200px;
+
+}
+
+
+.hometext1 {
+padding-left: 1em;
+padding-right: 1em;
+margin-top: 30px;
+
+}
+
+.line{
+margin-top: 30px;
+margin-bottom: 30px;
+height: 1px; 
+background: black; 
+}
