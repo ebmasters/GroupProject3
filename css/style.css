@@ -12,10 +12,20 @@ font-family: 'Vidaloka', serif; */
   
 }
 
+/* 
+.jumbotron {
+    position: relative;
+    background: url("images/Header with Logo.png") no-repeat center center;
+    width:100%;
+    height: 100%;
+    background-size: 100% 100%;
+    } */
+
+
 .inline-block {
     display: inline-block;
     vertical-align: center;
-    padding-top: 50px;
+    padding-top: 25px;
     height: 100px;
 }
 
@@ -34,20 +44,59 @@ li {
     padding-right: 25px;
 }
 
+/* .topcarousel{
+    margin-left: 100px;
+    margin-right: 1000px;
+    
+   
+
+}
 .carousel-inner{
     height: 448px;
 
 }
+ */
+
+.carousel img {
+    width:100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.carousel-second img {
+    width:100%;
+}
+.jumbotron {
+    color: gray;
+    background-image: url('../images/Header\ with\ Logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 398px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .hometext1 {
-padding-left: 1em;
+padding-top: 25px;
+    padding-left: 1em;
 padding-right: 1em;
 
 
 }
 .corpevents{
-    padding-top: 50px;
+    padding-top: 25px;
 
 }
 
@@ -71,10 +120,14 @@ padding-right: 1em;
 }
 
 .reviews{
-    padding-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
   
 }
-
+/* 
+.reviewalign{
+    vertical-align:text-top;
+} */
 
 .footerMenu{
     color: #FFFFFF;
@@ -103,10 +156,14 @@ padding-right: 1em;
     font-family: 'Quicksand', sans-serif;
 }
 
+.footerlogopadding{
+    padding-right: 75px;
+}
+
 .footerpadding{
 
-    padding-right: 0px;
-    padding-left: 50px;
+    padding-right:82px;
+    padding-left: 82px;
 }
 
 .socialpadding{
