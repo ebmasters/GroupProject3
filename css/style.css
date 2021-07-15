@@ -65,6 +65,7 @@ li {
 .carousel-second img {
     width:100%;
 }
+
 .jumbotron {
     color: gray;
     background-image: url('../images/Header\ with\ Logo.png');
@@ -74,19 +75,6 @@ li {
     min-height: 398px;
     margin-bottom: 0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .hometext1 {
 padding-top: 25px;
@@ -117,6 +105,12 @@ padding-right: 1em;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
     
+}
+
+.hpButtonColor:hover{
+
+    background: #D04A72;
+    border-color: #AE3B5E;  
 }
 
 .reviews{
