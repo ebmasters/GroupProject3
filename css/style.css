@@ -6,27 +6,15 @@ font-family: 'Vidaloka', serif; */
 /*  Syling for Header.  */
 
 .logo{
-    /* display: block; */
     height: 398px;
     width: 1443px;  
-  
 }
-
-/* 
-.jumbotron {
-    position: relative;
-    background: url("images/Header with Logo.png") no-repeat center center;
-    width:100%;
-    height: 100%;
-    background-size: 100% 100%;
-    } */
-
 
 .inline-block {
     display: inline-block;
     vertical-align: center;
     padding-top: 25px;
-    height: 100px;
+    height: 100px;  
 }
 
 .block {
@@ -50,18 +38,6 @@ li {
     padding-right: 25px;
 }
 
-/* .topcarousel{
-    margin-left: 100px;
-    margin-right: 1000px;
-    
-   
-
-}
-.carousel-inner{
-    height: 448px;
-
-}
- */
 
 .carousel img {
     width:100%;
@@ -83,15 +59,20 @@ li {
 }
 
 .hometext1 {
-padding-top: 25px;
+padding-top: 75px;
     padding-left: 1em;
 padding-right: 1em;
 
 
 }
 .corpevents{
-    padding-top: 25px;
+    padding-top: 175px;
+    padding-bottom: 175px;
 
+}
+
+.corpeventsalign{
+    padding-left: 150px;
 }
 
 .corpeventfont{
@@ -116,7 +97,8 @@ padding-right: 1em;
 .hpButtonColor:hover{
 
     background: #D04A72;
-    border-color: #AE3B5E;  
+    border-color: #AE3B5E;
+    border: 5px solid#AE3B5E;  
 }
 
 .reviews{
@@ -124,16 +106,21 @@ padding-right: 1em;
     padding-bottom: 25px;
   
 }
-/* 
-.reviewalign{
-    vertical-align:text-top;
-} */
 
 .footerMenu{
+ 
     color: #FFFFFF;
     text-align: center;
     background: #004E8A;
-    margin: 0%;
+    margin: 0%;  
+  
+}
+
+.verticleSpacing{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
 }
 
 .footerHours{
@@ -142,7 +129,9 @@ padding-right: 1em;
     background: #003C6A;
     margin: 0%;
     padding-top: 25px;
-    text-align: center;
+    padding-bottom: 25px;
+    
+
 }
 
 .qsb20{
@@ -170,4 +159,61 @@ padding-right: 1em;
 
 .socialpadding{
     padding-left: 25px;
+}
+
+ul.Heading{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+text-align: center;
+}
+
+
+li.HeadingLogo{
+display: inline-block;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-left: 10px;
+margin: 0px;
+height: 100px;
+line-height: 100px;
+vertical-align: bottom;
+}
+
+li.HeadingMenu{
+display: inline-block;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-left: 450px;
+margin: 0px;
+height: 100px;
+line-height: 100px;
+vertical-align: bottom;
+}
+
+
+li.Heading{
+display: inline-block;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-left: 100px;
+margin: 0px;
+height: 100px;
+line-height: 100px;
+vertical-align: bottom;
+}
+
+li.HeadingSocialMedia{
+display: inline-block;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-left: 10px;
+margin: 0px;
+height: 100px;
+line-height: 100px;
+vertical-align: bottom;
 }
