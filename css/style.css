@@ -2,6 +2,20 @@
 /*font-family: 'Quicksand', sans-serif;
 font-family: 'Vidaloka', serif; */
 
+/*  Syling for Fonts  */
+
+.qsb20{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+
+.qs20{
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
 
 /*  Syling for Header.  */
 
@@ -17,10 +31,32 @@ font-family: 'Vidaloka', serif; */
     height: 100px;  
 }
 
+.navbar-light {
+    background-color: #FF6392;
+}
+  .bg-light {
+ 
+    background-color: #FF6392 !important;
+    color: white;
+     border: none;
+  }
+.tcNav {
+    display: block;
+    padding: .5rem 0 .5rem 1rem;
+    font-size: 20px;
+  }
+  .aboutTextColor {
+    color: white;
+  }
+
 .block {
     display: block;
     text-align: center;
     background-color: #FF6392;
+}
+
+.navFontColor{
+color:#FFFFFF
 }
 
 .navsize{
@@ -38,6 +74,7 @@ li {
     padding-right: 25px;
 }
 
+/*  Syling for Carousel  */
 
 .carousel img {
     width:100%;
@@ -58,11 +95,14 @@ li {
     margin-bottom: 0px;
 }
 
+/*  Syling for Main home text  */
+
 .hometext1 {
 padding-top: 75px;
     padding-left: 1em;
 padding-right: 1em;
 
+/*  Syling for Corp Events.  */
 
 }
 .corpevents{
@@ -81,6 +121,7 @@ padding-right: 1em;
     font-weight: bold;
 }
 
+/*  Syling for Corp Events Button.  */
 
 .hpButtonColor{
     background: #FF6392;
@@ -101,11 +142,15 @@ padding-right: 1em;
     border: 5px solid#AE3B5E;  
 }
 
+/*  Syling for Reviews  */
+
 .reviews{
     padding-top: 25px;
     padding-bottom: 25px;
   
 }
+
+/*  Syling for Footer  */
 
 .footerMenu{
  
@@ -131,21 +176,9 @@ padding-right: 1em;
     padding-top: 25px;
     padding-bottom: 25px;
     
-
-}
-
-.qsb20{
-    font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    color: #FFFFFF;
 }
 
 
-.qs20{
-    font-size: 20px;
-    font-family: 'Quicksand', sans-serif;
-}
 
 .footerlogopadding{
     padding-right: 75px;
@@ -160,6 +193,10 @@ padding-right: 1em;
 .socialpadding{
     padding-left: 25px;
 }
+
+
+/*  Test troubleshooting Syling for Nav  */
+
 
 ul.Heading{
 list-style-type: none;
