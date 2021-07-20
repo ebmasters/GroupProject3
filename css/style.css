@@ -34,12 +34,26 @@ font-family: 'Vidaloka', serif; */
 .navbar-light {
     background-color: #FF6392;
 }
+
+.navbar-light2 {
+    background-color: #004E8A;
+}
+
   .bg-light {
  
     background-color: #FF6392 !important;
     color: white;
      border: none;
   }
+
+  .bg-light2 {
+ 
+    background-color: #004E8A !important;
+    color: white;
+     border: none;
+
+  }
+
 .tcNav {
     display: block;
     padding: .5rem 0 .5rem 1rem;
@@ -73,6 +87,25 @@ li {
     padding-left: 75px;
     padding-right: 25px;
 }
+
+.li2 {
+    padding-left: 60px !important;
+    padding-right: 25px;
+}
+
+.li2 a:hover {
+    color: #FF6392;
+}
+
+.li3 {
+    padding-left: 10px !important;
+    padding-right: 25px;
+}
+
+.li3 img:hover {
+    color: #FF6392;
+}
+
 
 /*  Syling for Carousel  */
 
@@ -253,4 +286,51 @@ margin: 0px;
 height: 100px;
 line-height: 100px;
 vertical-align: bottom;
+}
+
+.Headinglogo2
+{
+display: inline-block;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 100px;
+padding-left: 0px;
+margin: 0px;
+height: 100px;
+line-height: 100px;
+vertical-align: middle;
+}
+
+.colmargin {
+    margin-left: 50px;
+}
+
+li.Headingsocial
+{
+display: inline-block;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-right: 0px;
+padding-left: 25px;
+margin: 0px;
+height: 100px;
+line-height: 100px;
+vertical-align: bottom;
+}
+
+
+.navbar-toggler-icon2{
+    color: #FFFFFF
+}
+
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    color:#FFFFFF !important;
 }
